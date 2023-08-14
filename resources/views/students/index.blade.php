@@ -2,9 +2,9 @@
 
 @section('content')
     <h1>Liste des Etudiants</h1>
-    <a href="{{ route('students.create') }}" class="btn btn-info">Ajouter</a>
+    <a href="{{ route('students.create') }}" class="btn btn-info mb-3">Ajouter</a>
 
-    <table class="table table-striped">
+    <table class="table table-striped shadow">
         @if (session()->has('success'))
             <div class="alert alert-success text-center my-2">{{ session()->get('success') }}</div>
         @endif

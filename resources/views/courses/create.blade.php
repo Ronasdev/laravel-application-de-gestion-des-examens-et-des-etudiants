@@ -20,6 +20,7 @@
                 </div>
 
                 <Button class="btn btn-success" type="submit">Ajouter</Button>
+                <a href="{{ route('courses.index') }}" class="btn btn-info">Annuler</a>
             </form>
         </div>
     </div>

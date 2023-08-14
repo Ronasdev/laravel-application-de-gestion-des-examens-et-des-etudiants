@@ -14,6 +14,7 @@
                 </div>
 
                 <Button class="btn btn-success" type="submit">Ajouter</Button>
+                <a href="{{route('filieres.index')}}" class="btn btn-info">Annuler</a>
             </form>
         </div>
     </div>

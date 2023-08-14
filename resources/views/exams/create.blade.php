@@ -33,6 +33,7 @@
                 </div>
 
                 <Button class="btn btn-success" type="submit">Enregistrer</Button>
+                <a href="{{ route('exams.index') }}" class="btn btn-info">Annuler</a>
             </form>
         </div>
     </div>
